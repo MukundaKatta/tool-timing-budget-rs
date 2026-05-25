@@ -1,0 +1,12 @@
+[package]
+name = "tool-timing-budget"
+version = "0.1.0"
+edition = "2021"
+description = "Total wall-clock time budget across all tool calls in an agent run"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/tool-timing-budget-rs"
+keywords = ["llm", "agent", "timeout", "budget", "tools"]
+categories = ["development-tools"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
